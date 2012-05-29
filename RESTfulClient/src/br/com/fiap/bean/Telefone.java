@@ -1,5 +1,9 @@
 package br.com.fiap.bean;
 
+/**
+ * Classe que implementa o Telefone
+ */
+
 public class Telefone {
 	
 	private String telefone;

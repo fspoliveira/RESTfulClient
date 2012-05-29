@@ -1,5 +1,9 @@
 package br.com.fiap.bean;
 
+/**
+ * Classe que implementa o Email
+ */
+
 public class Email {
 	
 	private String email;

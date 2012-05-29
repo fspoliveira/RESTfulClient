@@ -2,7 +2,13 @@ package br.com.fiap.bean;
 
 import java.util.List;
 
+/**
+ * Classe que implementa a Agenda dos contatos. 
+ */
+
 public class Agenda {
+	
+
 	
 	private List<Contato> contatos;
 

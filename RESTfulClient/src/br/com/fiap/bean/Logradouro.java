@@ -1,5 +1,9 @@
 package br.com.fiap.bean;
 
+/**
+ * Classe que implementa o Logradouro
+ */
+
 public class Logradouro {
 	
 	private String endereco;

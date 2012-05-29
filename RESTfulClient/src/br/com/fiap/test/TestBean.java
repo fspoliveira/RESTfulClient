@@ -1,10 +1,7 @@
 package br.com.fiap.test;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
-
 import br.com.fiap.bean.Agenda;
 import br.com.fiap.bean.Contato;
 import br.com.fiap.bean.Email;
