@@ -30,29 +30,28 @@ public class TestBean {
 		List<Contato> contatos = new ArrayList<Contato>();
 
 		contatos.add(c1);
-		
-		/***********************contato2******************************/
-		
-		
+
+		/*********************** contato2 ******************************/
+
 		Email e2 = new Email("cma@hotmail.com");
 		Logradouro l2 = new Logradouro("Rua Dom Antonio Barney, 277 casa 52",
 				"Campinas", "SP", "Brasil");
 
 		Telefone t2 = new Telefone("11 7070 0002");
 
-		Contato c2 = new Contato(e2, l2, t2);		
+		Contato c2 = new Contato(e2, l2, t2);
 
 		contatos.add(c2);
-		
+
 		Agenda a = new Agenda();
 		a.setContatos(contatos);
-		
-		
-		for (int i=0;i<a.getContatos().size();i++){
-			
+
+		for (int i = 0; i < a.getContatos().size(); i++) {
+
 			System.out.println(a.getContatos().get(i).getEmail().getEmail());
-			System.out.println(a.getContatos().get(i).getLogradouro().getCidade());
-			
+			System.out.println(a.getContatos().get(i).getLogradouro()
+					.getCidade());
+
 		}
 
 	}
