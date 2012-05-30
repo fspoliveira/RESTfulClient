@@ -27,7 +27,15 @@ public class MeuCliente extends ClientResource {
 		//Representation rep = new StringRepresentation("PERGUNTA");
 		
 		Contato contato = new Contato();
-		contato.setEmail("fspo@msn.com.br");		
+		contato.setEmail("fspo@msn.com.br");	
+		contato.setCidade("");
+		contato.setEndereco("");
+		contato.setEstado("");
+		contato.setId(0);
+		contato.setNome("Fernando Santiago");
+		contato.setPais("");
+		contato.setTelefone("");
+		
 		
 		Representation rep = new JsonRepresentation(contato);		
 		
