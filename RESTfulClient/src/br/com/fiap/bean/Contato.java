@@ -1,45 +1,85 @@
 package br.com.fiap.bean;
 
+
+
 /**
- * Classe que implementa o Contato
+ * Classe bean que representa um Contato.
  */
 
-public class Contato {
+public class Contato {	
 	
-	private Email email;
-	private Logradouro logradouro;
-	private Telefone telefone;
-		
-	public Contato() {
-		super();
+
+	private long id;
+	private String email;
+	private String nome;
+	private String telefone;
+	private String endereco;
+	private String cidade;
+	private String estado;
+	private String pais;
+	
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
 	}
 	
-	public Contato(Email email, Logradouro logradouro, Telefone telefone) {
-		super();
-		this.email = email;
-		this.logradouro = logradouro;
-		this.telefone = telefone;
+	public String getNome() {
+		return nome;
 	}
-
-	public Telefone getTelefone() {
-		return telefone;
+	
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
-
-	public void setTelefone(Telefone telefone) {
-		this.telefone = telefone;
-	}
-
-	public Email getEmail() {
+	
+	public String getEmail() {
 		return email;
 	}
-	public void setEmail(Email email) {
+	
+	public void setEmail(String email) {
 		this.email = email;
 	}
-	public Logradouro getLogradouro() {
-		return logradouro;
-	}
-	public void setLogradouro(Logradouro logradouro) {
-		this.logradouro = logradouro;
+	
+	public String getTelefone() {
+		return telefone;
 	}
 	
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	
+	public String getEndereco() {
+		return endereco;
+	}
+	
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	
+	public String getCidade() {
+		return cidade;
+	}
+	
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+	
+	public String getEstado() {
+		return estado;
+	}
+	
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+	
+	public String getPais() {
+		return pais;
+	}
+	
+	public void setPais(String pais) {
+		this.pais = pais;
+	}
 }
