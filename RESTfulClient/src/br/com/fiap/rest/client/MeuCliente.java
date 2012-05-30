@@ -2,10 +2,13 @@ package br.com.fiap.rest.client;
 
 import java.io.IOException;
 
+import org.restlet.ext.json.JsonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.representation.StringRepresentation;
 import org.restlet.resource.ClientResource;
 import org.restlet.resource.ResourceException;
+
+import br.com.fiap.bean.Contato;
 
 public class MeuCliente extends ClientResource {
 
@@ -21,7 +24,13 @@ public class MeuCliente extends ClientResource {
 		
 		// Write the response entity on the console
 		resource.get().write(System.out);
-		Representation rep = new StringRepresentation("PERGUNTA");
+		//Representation rep = new StringRepresentation("PERGUNTA");
+		
+		Contato contato = new Contato();
+		contato.setEmail("fspo@msn.com.br");		
+		
+		Representation rep = new JsonRepresentation(contato);		
+		
 		resource.post(rep);
 	}
 
