@@ -38,7 +38,6 @@ public class TestBean {
 		for (int i = 0; i < a.getContatos().size(); i++) {
 
 			System.out.println(a.getContatos().get(i).getEmail());
-			
 
 		}
 

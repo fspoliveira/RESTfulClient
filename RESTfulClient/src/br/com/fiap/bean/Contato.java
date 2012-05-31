@@ -1,7 +1,5 @@
 package br.com.fiap.bean;
 
-
-
 /**
  * Classe bean que representa um Contato.
  */
