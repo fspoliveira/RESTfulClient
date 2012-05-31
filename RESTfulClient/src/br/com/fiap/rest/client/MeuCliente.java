@@ -1,7 +1,12 @@
 package br.com.fiap.rest.client;
 
-import java.io.IOException;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.restlet.data.CharacterSet;
+import org.restlet.data.Encoding;
 import org.restlet.ext.json.JsonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.ClientResource;
@@ -39,7 +44,9 @@ public class MeuCliente extends ClientResource {
 		contato.setTelefone("");
 
 		Representation rep = new JsonRepresentation(contato);
-
+		CharacterSet ch = new CharacterSet("ISO_8859_1");		
+		rep.setCharacterSet(ch);
+		
 		resource.post(rep);
 	}
 }
