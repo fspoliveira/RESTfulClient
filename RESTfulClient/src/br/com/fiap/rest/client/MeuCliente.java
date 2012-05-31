@@ -2,11 +2,7 @@ package br.com.fiap.rest.client;
 
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
 import org.restlet.data.CharacterSet;
-import org.restlet.data.Encoding;
 import org.restlet.ext.json.JsonRepresentation;
 import org.restlet.representation.Representation;
 import org.restlet.resource.ClientResource;
