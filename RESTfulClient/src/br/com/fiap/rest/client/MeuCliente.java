@@ -30,7 +30,7 @@ public class MeuCliente extends ClientResource {
 
 		Contato contato = new Contato();
 		contato.setEmail("fspo@msn.com.br");
-		contato.setCidade("");
+		contato.setCidade("São Paulo");
 		contato.setEndereco("");
 		contato.setEstado("");
 		contato.setId(0);
