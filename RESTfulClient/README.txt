@@ -2,9 +2,9 @@
 APRESENTA√á√ÉO
 ============================================================================================================================
 
-RESTfulClient √© um programa desenvolvido em RESTful com o Framework RESTlet.
-O programa se conecta no servidor da Agenda de Contatos que est√° no projeto RESTfulSever.
-Para efetuar as opera√ß√µes com o servidor √© criado uma string no formado JSON √† partir da classe Bean.
+RESTfulClient È um programa desenvolvido em RESTful com o Framework RESTlet.
+O programa se conecta no servidor da Agenda de Contatos que est· no projeto RESTfulSever.
+Para efetuar as operaÁıes com o servidor È criado uma string no formado JSON ‡ partir da classe Bean.
 
 ==============================================================================================================================
 TECNOLOGIAS
@@ -17,7 +17,7 @@ TECNOLOGIAS
 - IDE Eclipse  - http://www.eclipse.org
 
 ============================================================================================================================
-OPERA√á√ïES SUPORTADAS PELA AGENDA DE CONTATOS
+OPERA«’ES SUPORTADAS PELA AGENDA DE CONTATOS
 ============================================================================================================================
 
 a) Inserir um contato
@@ -26,7 +26,7 @@ c) Consultar um contato pelo e-mail
 d) Listar todos os contatos
 
 ============================================================================================================================
-EXECU√á√ÉO DO CLIENT
+EXECU«√O DO CLIENT
 ============================================================================================================================
 
-br.com.fiap.rest.client.AgendaClient m√©todo main
+br.com.fiap.rest.client.AgendaClient mÈtodo main
